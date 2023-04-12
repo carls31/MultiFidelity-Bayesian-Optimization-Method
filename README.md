@@ -1,1 +1,1 @@
-# A multifidelity bayesian optimization method for design-space exploration with noisy evaluations
+# Multi-Fidelity Bayesian Optimization Method for design-space exploration with noisy evaluations
