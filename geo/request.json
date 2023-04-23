@@ -1,0 +1,15 @@
+{
+    "url": "https://cds.climate.copernicus.eu/api/v2",
+    "uuid": "175232",
+    "key": "4d271410-f9c3-4814-a423-304531d6bef4",
+    "variable": "reanalysis-era5-pressure-levels",
+    "options": {
+      "variable": "2m_temperature",
+      "pressure_level": "1000",
+      "product_type": "reanalysis",
+      "date": "2017-12-01/2017-12-02",
+      "time": "12:00",
+      "format": "grib"
+    },
+    "filename":"test.grib"
+  }
