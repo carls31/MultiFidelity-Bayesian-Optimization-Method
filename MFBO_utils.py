@@ -60,7 +60,7 @@ class TestcaseDataset(Dataset):
                 self.Y_lofi, 
                 self.Y_test, 
                 )
-    
+
 
 from torch import nn # Neural Network Module
 # Define hyperparameters
@@ -186,4 +186,26 @@ def gp_visualization(x_train,y_train,alpha=0,iter=1000,acqf='acqf'):
     print('\n')
     return gp_model.eval(), likelihood.eval()
 
+import matplotlib.pyplot as plt
+def plot_gp(gp_model_acqf,acqf):
+    fig = plt.figure(figsize=(21, 9))
 
+    for alpha in range(2):#X_lofi.shape[1]):
+
+        with torch.no_grad(), gpytorch.settings.fast_pred_var():
+            test_x = torch.linspace(X_hifi[:,alpha].min(), X_hifi[:,alpha].max(), 100)
+            # Make predictions by feeding model through likelihood / gp_model
+            observed_pred_acqf = gp_model_acqf((test_x ))  
+            # Initialize plot 
+            ax = fig.add_subplot(2, 2, alpha+1)      
+            ax.scatter(X_test[:,alpha].numpy(), Y_test[:,-1].numpy(), alpha=0.8, label = 'Test')
+            
+            # Get upper and lower confidence bounds # Plot predictive means as blue line
+            lower, upper = observed_pred_acqf.confidence_region() 
+            ax.plot(test_x.numpy(), observed_pred_acqf.mean.numpy(), label = f'Mean_{acqf}')    
+            ax.fill_between(test_x.numpy(), lower.numpy(), upper.numpy(), alpha=0.5, label = f'Confidence_{acqf}')  
+            ax.scatter(eval(f'X_lofi_{acqf}')[:,alpha].numpy(), eval(f'Y_lofi_{acqf}')[:,-1].numpy(), s=50,label = f'Observed Data_{acqf}')
+
+            ax.set_ylim([-4,3])
+            plt.xlabel(f"PCA-Wing{alpha+1}")
+            ax.legend()
