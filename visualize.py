@@ -1,3 +1,6 @@
+'''Author: Lorenzo Carlassara - mail: lorenzo.carlassara@mail.polimi.it
+'''
+
 import numpy as np
 import plotly.graph_objs as go
 from ipywidgets import interact, widgets

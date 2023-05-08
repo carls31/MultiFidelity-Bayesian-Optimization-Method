@@ -1,4 +1,6 @@
 # MultiFidelity Bayesian Optimization library for helper functions
+'''Author: Lorenzo Carlassara - mail: lorenzo.carlassara@mail.polimi.it
+'''
 import os
 SMOKE_TEST = os.environ.get("SMOKE_TEST")
 
