@@ -22,16 +22,16 @@ Following, it is shown the EI acquisition function outcome applied to one input 
 Finally, it is shown the result provided again by EI acquisition function after PCA performing, this time applied to all the inputs:
 ![What is this](output_img/EI_model_pca_3000_singlobj.png)
 
-[L. Bonfiglio. Optimization and performance predictions using machine learning and
+[1][L. Bonfiglio. Optimization and performance predictions using machine learning and
 stochastic multi-fidelity modeling, 2018](https://web.mit.edu/~bonfi/www/multi-fidelity.html)
 
-[C. E. Rasmussen & C. K. I. Williams, Gaussian Processes for Machine Learning, the MIT Press, 2006, ISBN 026218253X](http://gaussianprocess.org/gpml/)
+[2][C. E. Rasmussen & C. K. I. Williams, Gaussian Processes for Machine Learning, the MIT Press, 2006, ISBN 026218253X](http://gaussianprocess.org/gpml/)
 
-[P. I. Frazier. A tutorial on bayesian optimization,
+[3][P. I. Frazier. A tutorial on bayesian optimization,
 2018](https://arxiv.org/abs/1807.02811)
 
-[B. Letham, B. Karrer, G. Ottoni, and E. Bakshy. Constrained bayesian optimization
+[4][B. Letham, B. Karrer, G. Ottoni, and E. Bakshy. Constrained bayesian optimization
 with noisy experiments, 2018](https://arxiv.org/abs/1706.07094)
 
-[S. Li, W. Xing, R. M. Kirby, and S. Zhe. Multi-fidelity bayesian optimization via deep
+[5][S. Li, W. Xing, R. M. Kirby, and S. Zhe. Multi-fidelity bayesian optimization via deep
 neural networks experiments, 2020.](https://proceedings.neurips.cc/paper/2020/hash/60e1deb043af37db5ea4ce9ae8d2c9ea-Abstract.html)
