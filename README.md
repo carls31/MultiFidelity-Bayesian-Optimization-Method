@@ -34,4 +34,9 @@ stochastic multi-fidelity modeling, 2018](https://web.mit.edu/~bonfi/www/multi-f
 with noisy experiments, 2018](https://arxiv.org/abs/1706.07094)
 
 [5][S. Li, W. Xing, R. M. Kirby, and S. Zhe. Multi-fidelity bayesian optimization via deep
-neural networks experiments, 2020.](https://proceedings.neurips.cc/paper/2020/hash/60e1deb043af37db5ea4ce9ae8d2c9ea-Abstract.html)
+neural networks experiments, 2020](https://proceedings.neurips.cc/paper/2020/hash/60e1deb043af37db5ea4ce9ae8d2c9ea-Abstract.html)
+
+[6][P. Hennig, M. A. Osborne, and H. P. Kersting. Probabilist numerics. Cambridge
+University Press, 2022]( https://doi.org/10.1017/9781316681411)
+
+[7][A. Zhang, Z. C. Lipton, M. Li, and A. J. Smola. Dive into deep learning](https://d2l.ai/)
