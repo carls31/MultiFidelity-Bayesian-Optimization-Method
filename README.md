@@ -18,6 +18,6 @@ Here, it is shown the initial green uncertainty level described by the standard 
 Following, it is shown the EI acquisition function outcome applied to one input (angle of the cargo-wing industrial test case):
 ![What is this](output_img/output_test4_alpha0.png)
 
-Finally, it is shown the result provided again by EI acquisition function, this time applied to all the inputs:
+Finally, it is shown the result provided again by EI acquisition function after PCA performing, this time applied to all the inputs:
 ![What is this](output_img/EI_model_pca_3000_singlobj.png)
 
