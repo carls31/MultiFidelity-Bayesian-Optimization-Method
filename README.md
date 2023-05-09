@@ -24,10 +24,14 @@ Finally, it is shown the result provided again by EI acquisition function after 
 
 [L. Bonfiglio. Optimization and performance predictions using machine learning and
 stochastic multi-fidelity modeling, 2018](https://web.mit.edu/~bonfi/www/multi-fidelity.html)
+
 [C. E. Rasmussen & C. K. I. Williams, Gaussian Processes for Machine Learning, the MIT Press, 2006, ISBN 026218253X. c 2006 Massachusetts Institute of Technology](http://gaussianprocess.org/gpml/)
+
 [P. I. Frazier. A tutorial on bayesian optimization. arXiv preprint arXiv:1807.02811v1,
 2018](https://arxiv.org/abs/1807.02811)
+
 [B. Letham, B. Karrer, G. Ottoni, and E. Bakshy. Constrained bayesian optimization
 with noisy experiments. arXiv preprint arXiv:1706.07094v2, 2018](https://arxiv.org/abs/1706.07094)
+
 [S. Li, W. Xing, R. M. Kirby, and S. Zhe. Multi-fidelity bayesian optimization via deep
 neural networks experiments. arXiv preprint arXiv:2007.03117v4, 2020.](https://proceedings.neurips.cc/paper/2020/hash/60e1deb043af37db5ea4ce9ae8d2c9ea-Abstract.html)
