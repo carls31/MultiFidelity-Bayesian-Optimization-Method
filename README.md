@@ -1,5 +1,6 @@
 # MFBO Tutorial
 **A Multi-Fidelity Bayesian Method for Complex Model Optimization: An Industrial Case Study**
+
 MFBO is an efficient method for reducing uncertainty using multi fidelity and Bayesian optimization with a general overview of possible acquisition functions. It is developed for a undergraduate project at [Politecnico di Milano](https://www.polimi.it/) in a joint collaboration with [Università della Svizzera italiana](https://www.usi.ch)
 
 ### Installation
