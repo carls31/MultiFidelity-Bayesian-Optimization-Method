@@ -10,3 +10,5 @@ This tutorial required Anaconda or mamba being installed. After cloning the repo
 conda env create -f advpy.yml
 ```
 Or fork the repository for having your own copy.
+
+![What is this](output_img/only_gp_wing0_PCA_resampled.p)
