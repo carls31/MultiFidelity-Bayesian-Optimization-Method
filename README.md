@@ -3,6 +3,6 @@ Computational models are often evaluated via stochastic simulation or numerical 
 
 ### Installing
 After cloning the repository, launch the command:
-```
+```sh
 conda env create -f advpy.yml
 ```
